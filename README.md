@@ -1,2 +1,3 @@
 # STADY
-flask socket
+attendance system 10-29
+
