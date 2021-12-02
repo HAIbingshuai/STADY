@@ -3,12 +3,12 @@ import pymysql
 from tqdm import tqdm
 import time
 from chinese_calendar import is_workday
-from config import cfg
+from work_attendance.config import cfg
 import datetime
 from datetime import datetime, timedelta, date
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-from worker_bace_insert_db.worker_bace_insert_in_progress import generate_workers_information, generate_table_dict_state
+from work_attendance.worker_bace_insert_db.worker_bace_insert_in_progress import generate_workers_information, generate_table_dict_state
 
 
 def getBetweenDay(begin_date, end_date):

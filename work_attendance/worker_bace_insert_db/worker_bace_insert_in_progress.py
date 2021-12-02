@@ -2,7 +2,7 @@
 import xlrd
 from tqdm import tqdm
 import pymongo
-from config import cfg
+from work_attendance.config import cfg
 
 
 def generate_workers_information():
